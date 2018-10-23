@@ -170,7 +170,7 @@ PASSWORD_HASHERS = (
 
 ########## END PASSWORD VALIDATION CONFIGURATION
 
-ROOT_URLCONF = 'tektank.urls'
+ROOT_URLCONF = '{{project_name}}.urls'
 
 
 DJANGO_APPS = (
@@ -386,4 +386,4 @@ LOGGING = {
 }
 
 
-WSGI_APPLICATION = 'tektank.wsgi.application'
+WSGI_APPLICATION = '{{project_name}}.wsgi.application'

@@ -5,8 +5,8 @@ import sys
 if __name__ == "__main__":
 
     settings = {
-        'test': "tektank.settings.test",
-        'dev': "tektank.settings.dev"
+        'test': "{{project_name}}.settings.test",
+        'dev': "{{project_name}}.settings.dev"
     }
 
     if sys.argv[1] == 'test':
