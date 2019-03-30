@@ -50,6 +50,9 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+node_modules/
+yarn.lock
+.mypy_cache
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -86,7 +89,8 @@ target/
 *.pyc
 __pycache__/
 local_settings.py
-
+tektank/tektank/logs
+.pytest_cache/
 
 db.sqlite3
 

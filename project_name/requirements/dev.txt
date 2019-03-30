@@ -1,9 +1,21 @@
 # Local development dependencies go here
 -r base.txt
 
+factory_boy
 django-debug-toolbar
 ipdb
 flake8
+flake8-import-order
+flake8-blind-except
+flake8-builtins
+flake8-docstrings
+flake8-rst-docstrings
+flake8-logging-format
+flake8-bugbear
+flake8-mypy
+flake8-bandit
+wemake-python-styleguide
+pep8-naming
 coverage
 django-rest-swagger
 httpie
@@ -13,3 +25,9 @@ sphinx-rtd-theme
 numpydoc
 pytest
 pytest-django 
+tox
+pytest-mock
+django-mock-queries
+bandit
+safety
+vulture
